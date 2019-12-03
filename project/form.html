@@ -1,0 +1,45 @@
+<html>
+     <head>
+          <title>form</title>
+     </head>
+<form name="register">
+<style>
+     fieldset{border: 3px solid #ccc; padding: 10px;background:rgb(229, 230, 231);}
+     legend{font-size: 30px;}
+     label{margin-bottom:20px;}
+     input{margin-bottom:20px;padding:7px}
+     input[type="text"]
+     ,input[type="password"],
+     input[type="email"]
+     {display: block;width: 300px;margin:10px;}
+     legend {background:rgb(254, 254, 255) ;border: 1px solid #ccc;
+</style>
+     <Fieldset>
+          <legend>Personal Information for patient</legend>
+          <label>username<label>
+          <input type="text"name="username">
+          <label>password<label>
+          <input type="password" name="password"placeholder="password">
+          <label>E-mail<label>
+          <input type="Email"name="email"placeholder="@gmail.com">
+          <input type="radio"name="gender">Male
+          <input type="radio"name="gender">Female <br>
+     </Fieldset>
+     <fieldset>
+<legend>Patient Disease</legend>
+<select name="Diseases">
+<option>headache</option>
+<option>dibetes</option>
+<option>flu</option>
+<option>heart attack</option>
+<option>others</option>
+</select>
+<h3>next visit date</h3>
+<input type="date"><br>
+<textarea rows="6" cols="50">write your request</textarea>
+<br>
+<br>
+<input type="submit"value=send>
+     </fieldset>
+</form>
+</html>
